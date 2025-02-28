@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <form action="" class="search">
+                <input type="text" class="search-bar" placeholder="Search for a city...">
+                <!-- <button class="search-btn">Search</button> -->
+            </form>
+            <div class="weather-info">
+                <h2 class="location-name">Mumbai, India</h2>
+                <span class="temperature">25&deg;C</span>
+                <img src="/cloud-solid.svg" alt="Cloudy" class="weather-icon">
+                <p class="weather-condition">Cloudy</p>
+                <p class="min-temp">Min Temp: 17</p>
+                <p class="max-temp">Max Temp: 37</p>
+            </div>
+        </div>
+        <main>
+            <div class="parameter">
+                <div id="pressure">
+                    <h3>Pressure</h3>
+                    <i class="fa-solid fa-temperature-half"></i>
+                    <p>1000 hPa</p>
+                </div>
+                <div id="humidity">
+                    <h3>Humidity</h3>
+                    <i class="fa-solid fa-water"></i>
+                    <p>50%</p>
+                </div>
+                <div id="uv-index">
+                    <h3>UV Index</h3>
+                    <i class="fa-solid fa-sun"></i>
+                    <p>0.4</p>
+                </div>
+                <div id="visibility">
+                    <h3>Visibility</h3>
+                    <i class="fa-solid fa-eye"></i>
+                    <p>3 km</p>
+                </div>
+            </div>
+            
+
+            <div class="forecast">
+                <h2>5-Day Forecast ></h2>
+                <div class="m-card">
+                    <div class="card">
+                        <h3 class="fore-day">Monday</h3>
+                        <img src="/cloud-solid.svg" alt="Cloudy">
+                        <p class="fore-condition">Cloudy</p>
+                        <p class="fore-min">Min temp: 12</p>
+                        <p class="fore-max">Max temp: 32</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="fore-day">Monday</h3>
+                        <img src="/cloud-solid.svg" alt="Cloudy">
+                        <p class="fore-condition">Cloudy</p>
+                        <p class="fore-min">Min temp: 12</p>
+                        <p class="fore-max">Max temp: 32</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="fore-day">Monday</h3>
+                        <img src="/cloud-solid.svg" alt="Cloudy">
+                        <p class="fore-condition">Cloudy</p>
+                        <p class="fore-min">Min temp: 12</p>
+                        <p class="fore-max">Max temp: 32</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="fore-day">Monday</h3>
+                        <img src="/cloud-solid.svg" alt="Cloudy">
+                        <p class="fore-condition">Cloudy</p>
+                        <p class="fore-min">Min temp: 12</p>
+                        <p class="fore-max">Max temp: 32</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="fore-day">Monday</h3>
+                        <img src="/cloud-solid.svg" alt="Cloudy">
+                        <p class="fore-condition">Cloudy</p>
+                        <p class="fore-min">Min temp: 12</p>
+                        <p class="fore-max">Max temp: 32</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
