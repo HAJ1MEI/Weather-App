@@ -22,3 +22,37 @@ An interactive and responsive **Weather App** built using **HTML, CSS, and JavaS
 - **Frontend:** HTML, CSS, JavaScript  
 - **API Used:** [WeatherAPI](https://www.weatherapi.com/)  
 
+💡 Future Improvements
+🔹 Add hourly weather forecast
+🔹 Implement dark mode support
+🔹 Allow users to save favorite locations
+
+---
+
+🔧 Usage
+Enter a city name in the search bar and press Enter
+The app fetches and displays weather details instantly
+The search field clears automatically after fetching results
+
+---
+
+💖 Contributing
+Contributions are always welcome!
+
+Fork the project
+Create a new branch (git checkout -b feature-branch)
+Commit your changes (git commit -m 'Added a new feature')
+Push to your branch (git push origin feature-branch)
+Open a Pull Request
+
+---
+
+📜 License
+This project is open-source and available under the MIT License.
+
+---
+
+⭐ Show Your Support
+If you found this project helpful, please star ⭐ the repository on GitHub!
+
+Happy Coding! 🚀
